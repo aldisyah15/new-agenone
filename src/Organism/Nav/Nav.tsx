@@ -33,7 +33,7 @@ export const Navigasi = (props) => {
       </div>
 
       <nav
-        className={`flex flex-col items-center overflow-hidden min-w-80 h-0 bg-yellow-100 absolute top-[80px] lg:w-full lg:flex lg:justify-around lg:flex-row-reverse lg:h-auto lg:top-[10px] ${
+        className={`flex flex-col items-center overflow-hidden min-w-80 h-0 absolute top-[80px] lg:w-full lg:flex lg:justify-around lg:flex-row-reverse lg:h-auto lg:top-[10px] ${
           isOpen ? "h-[401px]" : ""
         } duration-500`}
       >
